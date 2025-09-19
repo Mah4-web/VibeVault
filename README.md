@@ -22,3 +22,5 @@
 🏹 Style the application excellently, using grid or flex and positioning.
 
 # Resources
+[Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
+[tabIndex](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex)
