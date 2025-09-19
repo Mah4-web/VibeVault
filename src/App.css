@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  /* declaring a variable in the root --> this is not styling anything yet */
+    --bg-colour: rgb(235, 244, 235);
+    --main-font: "Georgia", serif ;
+}
