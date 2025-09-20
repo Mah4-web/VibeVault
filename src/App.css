@@ -8,3 +8,16 @@
     --bg-colour: rgb(235, 244, 235);
     --main-font: "Georgia", serif ;
 }
+
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}

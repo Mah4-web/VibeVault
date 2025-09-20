@@ -24,3 +24,5 @@
 # Resources
 [Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
 [tabIndex](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex)
+[Modal](https://www.youtube.com/watch?v=FSY2A0vzwko)
+[SearchBar](https://www.youtube.com/watch?v=sWVgMcz8Q44)

@@ -10,8 +10,8 @@ export default function Thumbnail({image, onClick}) {
 
     const handleKeyDown = (e) => {
         // I used if statement instead of Ternary operators because it wasn't getting well,
-        // it was giving errors and I decided to use this. I wanted to do if, else but
-        // as you know my passion for using different things so I used ||, I like my codes to sing for me
+        // it was giving errors and I was making it complicated so decided to use this. I wanted to do if, else but
+        // I love trying different things so I used ||, I like my codes to sing for me.
         if (e.key === "Enter"  || e.key === "Space"){
         onClick();
         }
