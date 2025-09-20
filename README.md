@@ -26,3 +26,6 @@
 [tabIndex](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex)
 [Modal](https://www.youtube.com/watch?v=FSY2A0vzwko)
 [SearchBar](https://www.youtube.com/watch?v=sWVgMcz8Q44)
+[Stop Propagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
+[React Icons](https://react-icons.github.io/react-icons/icons/hi/)
+[Focus image](https://react.dev/learn/synchronizing-with-effects#focus-a-field-on-mount)

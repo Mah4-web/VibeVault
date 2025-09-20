@@ -2,16 +2,19 @@ import "./App.css";
 import Gallery from "./Components/Gallery/Gallery.jsx";
 import Thumbnail from "./Components/Thumbnail/Thumbnail.jsx";
 import SearchBar from "./Components/SearchBar/SearchBar.jsx";
+import Modal from "./Components/Modal/Modal.jsx"
 
 // I'm using useState and useEffect because I'm fetching data from an API here.
 
 import { useState, useEffect } from "react";
 
+
 export default function App(){
   // Why I used [] here, I used it to store a list of images, and by default, that list is empty
-  const [images, setImages] = useState([]);
+    const [images, setImages] = useState([]);
+    // Why I used null here? because it's single selected image, single item starting as null (meaning no image is selected yet)
     const [selectedImage, setSelectedImage] = useState(null);
-  const [searchQuery, setSearchQuery] = useState("nature");
+    const [searchQuery, setSearchQuery] = useState("nature");
 
   useEffect(() =>{
     async function fetchImages(){
@@ -30,20 +33,26 @@ export default function App(){
   }, [searchQuery]);
   console.log(images);
   return (
-    <>
-    <div className = "app">
+    
+  <>
+    <div className="app">
       <h1>VibeVault</h1>
+
       <Gallery images={images} handleClick={setSelectedImage} />
-      <ul>
+
+      {selectedImage && (
+        <Modal image={selectedImage} onClose={() => setSelectedImage(null)} />
+      )}
+
+      {/* <ul>
         {images.map((image) => (
-          
           <li key={image.id}>{image.alt_description || "No description"}</li>
         ))}
-      </ul>
-        <SearchBar onSearch={setSearchQuery} />
-    </div>
-    </>
-  )
-}
+      </ul> */}
 
-// REMINDER: add Modal and use selectedImage, once modal is done style
+      <SearchBar onSearch={setSearchQuery} />
+    </div>
+  </>
+);
+
+}
