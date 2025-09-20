@@ -36,7 +36,7 @@ export default function App(){
     
   <>
     <div className="app">
-      <h1>VibeVault</h1>
+      <h1 class="text-4xl font-extrabold text-center mb-5 text-shadow-lg/20">VibeVault</h1>
 
       <Gallery images={images} handleClick={setSelectedImage} />
 
