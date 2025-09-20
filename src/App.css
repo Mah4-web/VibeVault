@@ -5,19 +5,16 @@
     padding: 0;
     box-sizing: border-box;
   /* declaring a variable in the root --> this is not styling anything yet */
-    --bg-colour: rgb(235, 244, 235);
+    --bg-colour: #fff;
     --main-font: "Georgia", serif ;
 }
 
-
 .app {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-h1 {
-  margin-bottom: 1rem;
+  font-family: var(--main-font);
+  padding: 1rem;
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--bg-colour);
+  color: var(--color-teal-950);
+  text-align: center ;
 }
