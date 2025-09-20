@@ -1,4 +1,4 @@
-// import "./Thumbnail.css";
+import "./Thumbnail.css";
 
 // Props and Event Handling (I want to click on the thumbnail for a large image)
 // I'm trying workshop's example: Passing arguments to event handlers and using inline function 

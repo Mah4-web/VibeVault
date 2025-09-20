@@ -1,4 +1,4 @@
-// import ".Gallery.css";
+import "./Gallery.css";
 
 import Thumbnail from "../Thumbnail/Thumbnail.jsx";
 
