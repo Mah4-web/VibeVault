@@ -20,7 +20,7 @@ export default function SearchBar ({ onSearch }) {
             setInput("");
         }
     };
-    return<form className = "search-bar" onSubmit = { handleSubmit }>
+    return <form className = "search-bar" onSubmit = { handleSubmit }>
         <input type="text" 
         placeholder="Search image or illustration that inspire you....."
         value={input}
@@ -31,4 +31,3 @@ export default function SearchBar ({ onSearch }) {
 }
 
 
-//  

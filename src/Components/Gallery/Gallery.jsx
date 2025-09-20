@@ -7,7 +7,7 @@ export default function Gallery({images, handleClick}) {
     return (
       <div className="gallery">
 //       {images.map((img) => (
-        <ImageItem
+        <Thumbnail
         key={img.id} 
         image={img} 
         onClick={() => handleClick(img)} />
