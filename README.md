@@ -174,7 +174,7 @@ Live Demo: [VibeVault](https://vibevault-fse1.onrender.com/)
 
 ---
 
-### 🧠 Final Takeaway
+### 🧠 Final Thoughts
 
 What started as a small assignment became a full app — with accessibility, responsive UI, animations, keyboard controls, and custom API integration. I learned how to:
 - Solve problems without panicking (It doesn't mean I didn't panick 😉)
@@ -209,6 +209,7 @@ I'm proud of how much I’ve grown, and even more excited about what comes next.
 - [Example Stretch](https://great-images-iq88jjcm5-slouloudis.vercel.app/)
 
 **Teacher's Notes on Github**
+**I used AI to rephrase my reflection and if someone is interested it is in prompts**
 
 
 

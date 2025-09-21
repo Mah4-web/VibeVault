@@ -1,0 +1,47 @@
+Prompts
+
+Headings:
+Accessible & Responsive Image Gallery
+Features
+What I learned
+React
+Tailwind
+Deployment
+Requirements
+Planning stage: sigma, folders, trello (it gave me headache and i felt extra burden and i didn't use it), first shock, more planning
+Did I meet the requirements
+Testing and accessibility
+Challenges
+Lesson learned
+Credit 
+final thoughts
+Resources
+
+Vibe vault is an image gallery that fetches images and illustrations from Unsplash api. The app is keyboard accessible, responsive, includes animation, modal/image navigation, alt text, built with Vite, tailwind css and react.
+
+I used, vite, react, tailwind, css, github and render as well. I have app.jsx, app.css, in components==== gallery.jsx, gallery.css, searchbar.jsx/css, modal.jsx/css, searchbar.jsx/css, modalNavigation.jsx/css. 
+
+The features are: searchable gallery using Unsplash api, thumbnail grid, modal popup with full size image, navigation for the keyboard accessibility enter and space, 
+
+I have also put some animation on alt_description. I did test accessibility it's keyboard accessible, it is mobile responsive, i did lighthouse and safari accessibility audit and both are 100 percent.
+
+I used tailwind css and .env to store api key
+
+ i watched few videos for keyboard accessibility and image navigation and read documents, i tried modal popup first in my last workshop's assignement for testing in which i used basket of fruits and on clicking message appears but here i needed keyboard accessibility, i read tabindex, i played with z-index, i used some css from week2 assignment for thumbnail gallery, i am very proud of myself, I read documents for unsplash api and used environment variable workshop to make it work.
+
+I learned components, props, useState, UseEffect, useRef, conditional rendering, lists and keys, react dev tools, environment variable, tailwind css, for styling and animation, Vite, GitHub, render
+
+I met the requirements and used useState, useEffect, components folders, .map for rendering, modal with navigation, securing keys with .env
+
+
+ Problems I faced:  I rendered my client and put npm run build in publish instead of dist and in root put name VibeVault and I got error and i fixed it by going back to the notes, 
+
+ I added css files and got error because didn't use it so commented out, 
+i followed the class notes for the structure, I added buttons for navigation and it was so hard, it wasn't functional and did nothing, after watching youtube videos and reading documents came across one video and followed the instructions, it was hard because i had to read so many react documents,
+ then my modal was popping and it wasn't covering the page and page was blank, i had to put default image,
+
+ i started with easy this time but things became complicated, I decided to start with the components first and then styling, I was fixing the puzzles, I made search bar, thumbnails first then realised I didn’t do anything with the large image and found the term modal in the requirements, I first wanted to name my modal Panorama but decided to go with modal as required.
+
+ when the navigation didn't work, then my modal was on the page after styling and searchbar and thumbnail disappear, then i played with z-index, i went crazy first started with z-index 500 for the image modal because it wasn't setting well then when it was working then my searchbar and thumnails disappear but eventually with few styling chnages and z-index changing everything started working, i got few errors somewhere i was forgetting syntax and sometimes () or } but after so many trail and errors i achieved what i wanted to achieve.
+
+Final thoughts: I am happy and proud, I solved problems, debug complex things, used documentation, videos and built something meaningful.==== I need a professional reflection, remove unnecessary things, and make it professional, I have mentioned headings and content== make it professional
