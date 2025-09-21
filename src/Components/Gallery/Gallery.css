@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-amber-100);
+    background-color: var(--gallery-container);
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 2px;
@@ -16,3 +16,4 @@
     transform: translateX(-50%);
     backdrop-filter: blur(5px);
 }
+/* --color-amber-100 */

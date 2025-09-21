@@ -7,6 +7,9 @@
   /* declaring a variable in the root --> this is not styling anything yet */
     --bg-colour: #fff;
     --main-font: "Georgia", serif ;
+    --nav-button: var(--color-amber-200) ;
+    --nav-shadow: var(--color-orange-100);
+    --gallery-container: var(--color-amber-100);
 }
 
 body, html, #root {
