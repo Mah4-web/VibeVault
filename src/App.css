@@ -11,6 +11,14 @@
     --nav-shadow: var(--color-orange-100);
     --gallery-container: var(--color-amber-100);
     --nav-hover: var(--color-amber-400);
+    /* this one is for color animation--- just a wow factor for me to celebrate my success */
+     --color1: #b45309; 
+     --color2: #dc2626; 
+     --color3: #2563eb; 
+     --color4: #16a34a; 
+     --color5: #9333ea; 
+
+      --animate-color-cycle: color-cycle 5s linear infinite;
 }
 
 body, html, #root {
@@ -28,4 +36,30 @@ body, html, #root {
   position: relative;
   padding: 1rem 1.5rem 0 1.5rem;
   text-align: center;
+}
+
+
+@keyframes color-cycle {
+  0% {
+    color: var(--color1);
+  }
+  20% {
+    color: var(--color2);
+  }
+  40% {
+    color: var(--color3);
+  }
+  60% {
+    color: var(--color4);
+  }
+  80% {
+    color: var(--color5);
+  }
+  100% {
+    color: var(--color1);
+  }
+}
+
+.animate-color-cycle {
+  animation: var(--animate-color-cycle);
 }

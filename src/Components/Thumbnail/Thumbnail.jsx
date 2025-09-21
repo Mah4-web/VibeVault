@@ -18,6 +18,7 @@ export default function Thumbnail({image, onClick}) {
     };
 
     return (
+        <>
         <img
         src={urls.small}
         alt={alt_description || "Unsplash image"}
@@ -29,5 +30,6 @@ export default function Thumbnail({image, onClick}) {
         tabIndex={0}
         onKeyDown={handleKeyDown}
     />
+    </>
   );
 }

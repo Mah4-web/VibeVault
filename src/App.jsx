@@ -80,11 +80,18 @@ export default function App(){
     
   <>
     <div className="app">
-      <h1 class="text-4xl font-extrabold text-center mb-5 text-shadow-lg/20 z-550">VibeVault</h1>
+      <h1 class=" text-4xl font-extrabold text-center mb-5 text-shadow-lg/20 z-1">VibeVault</h1>
 
-       <SearchBar onSearch={setSearchQuery} />
+      {selectedImage && (
+      <div className="text-1xl animate-color-cycle font-extrabold mb-5 text-bg z-1 motion-safe:animate-pulse">
+      {selectedImage.alt_description || "No description available"}
+      </div>
+      )}
 
+      <SearchBar onSearch={setSearchQuery} />
+      
       <Gallery images={images} handleClick={setSelectedImage} />
+      
 
       {selectedImage && (
         <Modal 
@@ -96,13 +103,6 @@ export default function App(){
         />
       )}
 
-      {/* <ul>
-        {images.map((image) => (
-          <li key={image.id}>{image.alt_description || "No description"}</li>
-        ))}
-      </ul> */}
-
-     
     </div>
   </>
 );
