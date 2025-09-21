@@ -42,6 +42,8 @@ This project helped me strengthen and apply the following concepts and tools:
 - Version control with Git & GitHub
 - Deployment using Render
 
+---
+
 ## Requirements
 
 🎯 Implement the useState hook to manage gallery state (e.g. selected image).
@@ -58,6 +60,21 @@ This project helped me strengthen and apply the following concepts and tools:
 🏹 Set up an Unsplash application that you can fetch from your React app.
 🏹 Use .env to hide your API keys and tokens from the code.
 🏹 Style the application excellently, using grid or flex and positioning.
+
+---
+
+## Planning Stage
+
+**Wireframe - Figma**
+![Alt text](./images/wireframe.png)
+**Folder Structure**
+![Alt text](./images/structure.png)
+**Trello** (which I felt was a burden and decided not to use)
+![Alt text](./images/Trello.png)
+**First Shock**
+![Alt text](./images/reLines.png)
+
+---
 
 # Resources
 [Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
