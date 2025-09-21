@@ -160,7 +160,7 @@ Getting the Unsplash API working taught me how to:
 
 ## 🌐 Deployment
 
-Live Demo: [VibeVault on Vercel](https://vibevault-fse1.onrender.com/)
+Live Demo: [VibeVault](https://vibevault-fse1.onrender.com/)
 
 ---
 
