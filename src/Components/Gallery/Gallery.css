@@ -10,7 +10,7 @@
     overflow-x: auto;    /* horizontal scroll */
     overflow-y: hidden;  /* hide vertical scrollbar */
     z-index: 1;
-    bottom: 3vh;
+    bottom: 6vh;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
