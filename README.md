@@ -164,18 +164,51 @@ Live Demo: [VibeVault on Vercel](https://vibevault-fse1.onrender.com/)
 
 ---
 
+## 📸 Credits
+
+- Images: Unsplash
+
+- Inspiration: Week 2 and 6 React workshops + Accessibility labs
+
+- My Mentor: Manuel Gonzalez
+
+---
+
+### 🧠 Final Takeaway
+
+What started as a small assignment became a full app — with accessibility, responsive UI, animations, keyboard controls, and custom API integration. I learned how to:
+- Solve problems without panicking (It doesn't mean I didn't panick 😉)
+- Debug complex behavior
+- Use documentation, community forums, and videos as real tools
+- Build something meaningful from scratch
+
+I'm proud of how much I’ve grown, and even more excited about what comes next. 💪🚀
+
+---
+
 # Resources
-[Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
-[tabIndex](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex)
-[Modal](https://www.youtube.com/watch?v=FSY2A0vzwko)
-[SearchBar](https://www.youtube.com/watch?v=sWVgMcz8Q44)
-[Stop Propagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
-[React Icons](https://react-icons.github.io/react-icons/icons/hi/)
-[Focus image](https://react.dev/learn/synchronizing-with-effects#focus-a-field-on-mount)
-[Responding to Events](https://react.dev/learn/responding-to-events)
+- [Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
+- [tabIndex](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex)
+- [Modal](https://www.youtube.com/watch?v=FSY2A0vzwko)
+- [SearchBar](https://www.youtube.com/watch?v=sWVgMcz8Q44)
+- [Stop Propagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
+- [React Icons](https://react-icons.github.io/react-icons/icons/hi/)
+- [Focus image](https://react.dev/learn/synchronizing-with-effects#focus-a-field-on-mount)
+- [Responding to Events](https://react.dev/learn/responding-to-events)
+- [Color changing Animation Inspiration](https://www.youtube.com/watch?v=qOkwf7VoHbM)
+- [For Navigation functionality](https://www.npmjs.com/package/react-image-gallery)
+- [Idea for navigation button ](https://www.youtube.com/watch?v=Kx8XlKRBZx8)
+- [useRef Hook](https://www.w3schools.com/react/react_useref.asp)
+- [Console Method](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Managing Focus](https://dev.to/westbrookc16/managing-focus-in-react-3n13/)
+- [Tailwind](https://tailwindcss.com/docs/animation)
+- [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+- [React](https://react.dev/reference/react/useState#storing-information-from-previous-renders)
+- [The idea and concept of functional navigation](https://www.youtube.com/watch?v=Kx8XlKRBZx8)
+- [Updating Objects in state](https://react.dev/learn/updating-objects-in-state)
+- [Example Stretch](https://great-images-iq88jjcm5-slouloudis.vercel.app/)
 
-
-
+**Teacher's Notes on Github**
 
 
 
