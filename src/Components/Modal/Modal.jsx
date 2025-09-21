@@ -39,6 +39,8 @@ export default function Modal({ image, onClose, onNext, onPrev }) {
     >
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
 
+            <ModalNavigation onPrev = {onPrev} onNext = {onNext} />
+
         <img
             src={urls.regular}
             alt={alt_description || "Unsplash image"}

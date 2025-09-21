@@ -27,6 +27,8 @@ export default function App(){
 
     setImages(wrangledData);
 
+    // I wanted an image to be there not an empty page, setting default value
+
       if (wrangledData.length > 0) {
         setSelectedImage(wrangledData[0]);
     }
@@ -47,7 +49,11 @@ export default function App(){
       <Gallery images={images} handleClick={setSelectedImage} />
 
       {selectedImage && (
-        <Modal image={selectedImage} onClose={() => setSelectedImage(null)} />
+        <Modal 
+        image={selectedImage} 
+        onClose={() => setSelectedImage(null)}
+      
+        />
       )}
 
       {/* <ul>
