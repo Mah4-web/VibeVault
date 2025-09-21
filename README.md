@@ -72,7 +72,9 @@ This project helped me strengthen and apply the following concepts and tools:
 **Trello** (which I felt was a burden and decided not to use)
 ![Alt text](./images/Trello.png)
 **First Shock**
-![Alt text](./images/reLines.png)
+![Alt text](./images/redLines.png)
+**More Planning**
+![Alt text](./images/planning.png)
 
 ---
 
