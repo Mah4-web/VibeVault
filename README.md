@@ -1,4 +1,4 @@
-# 🎨 VibeVault – Where aesthetics live
+# 🎨 VibeVault – Where Aesthetics Live
 
 ## 🖼️ Accessible & Responsive Image Gallery
 
@@ -18,9 +18,29 @@ VibeVault is a React-based image gallery that fetches images and illustrations f
 
 ---
 
-## Reflections and Learning
+## 🧠 What I Learned
 
-## What I learned
+This project helped me strengthen and apply the following concepts and tools:
+
+### ⚛️ React (with Vite)
+- Components 
+- Props and event handling
+- State management using `useState`
+- Side effects using `useEffect`
+- Conditional rendering
+- Lists and keys
+- Debugging with React Dev Tools
+- Environment variables with Vite
+
+### 🎨 Styling & UI
+- Responsive design with Tailwind CSS
+- UI styling approach
+- Animated text and transitions
+
+### 🚀 Deployment & Workflow
+- Project setup with Vite
+- Version control with Git & GitHub
+- Deployment using Render
 
 ## Requirements
 
