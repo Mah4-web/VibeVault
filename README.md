@@ -152,6 +152,17 @@ Getting the Unsplash API working taught me how to:
 
 ---
 
+## 🧘 Lessons Learned
+
+> _"Starting simple helped me focus, but as the complexity grew, I had to dig into docs, revisit notes, test repeatedly, and learn by doing. I’m proud that I built something fully functional, accessible, and good-looking from scratch."_ 💪
+
+---
+
+## 🌐 Deployment
+
+Live Demo: [VibeVault on Vercel](https://vibevault-fse1.onrender.com/)
+
+---
 
 # Resources
 [Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
