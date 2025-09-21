@@ -24,8 +24,13 @@ export default function App(){
   
     const data = await response.json();
     const wrangledData = data.results;
+
     setImages(wrangledData);
-    } catch (error) {
+
+      if (wrangledData.length > 0) {
+        setSelectedImage(wrangledData[0]);
+    }
+   } catch (error) {
   console.error("Error fetching images:", error);
 }
   }
