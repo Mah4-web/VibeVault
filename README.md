@@ -1,16 +1,28 @@
-## 🎨 VibeVault – Where aesthetics live
+# 🎨 VibeVault – Where aesthetics live
 
-# Accessible & Responsive Image Gallery
+## 🖼️ Accessible & Responsive Image Gallery
 
 VibeVault is a React-based image gallery that fetches images and illustrations from the Unsplash API. The app is fully keyboard-accessible, responsive across devices, and includes smooth animations, modal navigation, and alt-text for screen readers. Built with Vite, Tailwind CSS, and modern React practices.
 
 ---
 
-# Reflections and Learning
+## 🚀 Features
 
-# What I learned
+- 🔍 Searchable gallery using Unsplash API
+- 🖼️ Thumbnail grid with hover animations
+- 📷 Modal popup with full-size image and navigation
+- ♿ Keyboard accessible (Enter/Space)
+- ✅ Lighthouse & Safari accessibility audits: **100%**
+- 💅 Responsive design using Tailwind & custom CSS
+- 🔐 Environment variable setup for secure API key
 
-# Requirements
+---
+
+## Reflections and Learning
+
+## What I learned
+
+## Requirements
 
 🎯 Implement the useState hook to manage gallery state (e.g. selected image).
 🎯 Use useEffect for initial fetching of images from an external API.
@@ -35,6 +47,10 @@ VibeVault is a React-based image gallery that fetches images and illustrations f
 [Stop Propagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
 [React Icons](https://react-icons.github.io/react-icons/icons/hi/)
 [Focus image](https://react.dev/learn/synchronizing-with-effects#focus-a-field-on-mount)
+
+
+
+
 
 
 
