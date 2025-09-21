@@ -1,7 +1,10 @@
+import "./ModalNavigation.css";
+
 
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
-export default function ModalNavigation({ onPrev, onNext }) {
+export default function ModalNavigation({ onNext, onPrev }) {
+    
     return (
     <>
         <button

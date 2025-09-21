@@ -1,4 +1,4 @@
-// import "./Modal.css";
+import "./Modal.css";
 
 // I used useRef to create a reference to a DOM element
 

@@ -16,6 +16,9 @@ export default function App(){
     // Why I used null here? because it's single selected image, single item starting as null (meaning no image is selected yet)
     const [selectedImage, setSelectedImage] = useState(null);
     const [searchQuery, setSearchQuery] = useState("nature");
+    const [imageIndex, setImageIndex] = useState(0);
+    
+
 
   useEffect(() =>{
     async function fetchImages(){
@@ -27,10 +30,13 @@ export default function App(){
 
     setImages(wrangledData);
 
-    // I wanted an image to be there not an empty page, setting default value
+    // I wanted an image to be there not an empty page, setting default value, default image and index on new search
 
       if (wrangledData.length > 0) {
         setSelectedImage(wrangledData[0]);
+        setImageIndex(0);
+    } else {
+      setSelectedImage(null);
     }
    } catch (error) {
   console.error("Error fetching images:", error);
@@ -39,12 +45,44 @@ export default function App(){
     fetchImages();
 
   }, [searchQuery]);
-  console.log(images);
+
+
+   useEffect(() => {
+    if (images.length > 0) {
+      setSelectedImage(images[imageIndex]);
+    }
+  }, [imageIndex, images]);
+
+  // Navigate to next image
+  function showNextImage() {
+    setImageIndex((currentIndex) =>
+      currentIndex === images.length - 1 ? 0 : currentIndex + 1
+    );
+  }
+
+  // Navigate to previous image
+  function showPrevImage() {
+    setImageIndex((currentIndex) =>
+      currentIndex === 0 ? images.length - 1 : currentIndex - 1
+    );
+  }
+// I copied this code from a video and it's in the resources Readme. Explanation is in the readme,
+// I successfully put the icons but they were not functional so followed the video then edited after so many trail and errors
+// 
+// function showPrevImage() {
+//   setImageIndex(index => {
+//     if (index === 0) return imageUrls.length - 1;
+//     return index - 1;
+//   });
+// }
+  
   return (
     
   <>
     <div className="app">
       <h1 class="text-4xl font-extrabold text-center mb-5 text-shadow-lg/20">VibeVault</h1>
+
+       <SearchBar onSearch={setSearchQuery} />
 
       <Gallery images={images} handleClick={setSelectedImage} />
 
@@ -52,6 +90,8 @@ export default function App(){
         <Modal 
         image={selectedImage} 
         onClose={() => setSelectedImage(null)}
+        onNext={showNextImage}
+        onPrev={showPrevImage}
       
         />
       )}
@@ -62,7 +102,7 @@ export default function App(){
         ))}
       </ul> */}
 
-      <SearchBar onSearch={setSearchQuery} />
+     
     </div>
   </>
 );
