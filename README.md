@@ -90,6 +90,16 @@ This project helped me strengthen and apply the following concepts and tools:
 
 ---
 
+## 🧪 Testing & Accessibility
+
+- ✅ Keyboard navigable thumbnails and modal
+- ✅ Focusable buttons and interactive elements
+- ✅ Passed **Lighthouse** and **Safari accessibility audits** with 100%
+- ✅ Used ARIA 
+![Alt text](./images/Lighthouse.png)
+![Alt text](./images/safariAudit.png)
+---
+
 # Resources
 [Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
 [tabIndex](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex)
@@ -98,6 +108,13 @@ This project helped me strengthen and apply the following concepts and tools:
 [Stop Propagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
 [React Icons](https://react-icons.github.io/react-icons/icons/hi/)
 [Focus image](https://react.dev/learn/synchronizing-with-effects#focus-a-field-on-mount)
+
+
+
+
+
+
+
 
 
 
