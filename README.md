@@ -44,7 +44,7 @@ This project helped me strengthen and apply the following concepts and tools:
 
 ---
 
-## Requirements
+## 🎯 Requirements
 
 🎯 Implement the useState hook to manage gallery state (e.g. selected image).
 🎯 Use useEffect for initial fetching of images from an external API.
@@ -54,7 +54,7 @@ This project helped me strengthen and apply the following concepts and tools:
 🎯 Ensure all images have meaningful alt text.
 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
 
-# Stretch Requirements
+## 🎯 Stretch Requirements
 
 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field.
 🏹 Set up an Unsplash application that you can fetch from your React app.
@@ -63,7 +63,7 @@ This project helped me strengthen and apply the following concepts and tools:
 
 ---
 
-## Planning Stage
+## 🗓️ Planning Stage
 
 **Wireframe - Figma**
 ![Alt text](./images/wireframe.png)
@@ -98,7 +98,60 @@ This project helped me strengthen and apply the following concepts and tools:
 - ✅ Used ARIA 
 ![Alt text](./images/Lighthouse.png)
 ![Alt text](./images/safariAudit.png)
+
 ---
+
+## 🧗 Challenges 
+
+This project was more than just building a React app — it was a full learning journey that pushed me to think like a developer, solve real-world problems, and build something I'm truly proud of.
+
+### 🔄 From Simplicity to Complexity
+
+I began with a simple idea: an image gallery using the Unsplash API. I had worked with modals and event handling in earlier workshops (like the "basket of fruits" example), so I thought this would be straightforward. But things quickly became more complex once I introduced **keyboard accessibility**, **modal navigation**, and responsive design.
+
+---
+
+### 🧠 Learning React the Real Way
+
+I had to read through **React documentation**, **follow tutorials**, and **experiment repeatedly** to understand how to manage selected images, navigate forward/backward, and ensure that the modal reflects the correct image.
+
+---
+
+### 🎨 Styling, Tailwind & Animation
+
+I used **Tailwind CSS** to build a responsive, clean UI, and even implemented **animated alt descriptions** using custom keyframes. At one point, I had to fight with `z-index` to make the modal appear correctly without breaking the layout — I literally started with `z-500` and debugged layer by layer.
+
+---
+
+### 🧩 The Hardest Part: Modal Navigation
+
+Adding previous/next buttons seemed easy — but getting them to actually work was tough. I:
+- Followed class notes to structure the buttons
+- Wrote the navigation logic using `useState` and `useEffect`
+- Struggled to make it functional until I found a helpful YouTube video and adapted the approach
+- Faced syntax errors, logic bugs, and moments where “nothing worked” — but I kept debugging
+
+---
+
+### 🐛 Real Errors, Real Debugging
+
+Some real-world problems I solved:
+- I used the wrong folder in my **Render deployment** (`npm run build` pointed to the wrong place), then fixed it by going back to notes
+- Imported unused CSS files which caused errors — so I commented them out
+- Modal wasn’t covering the screen — fixed it by adding a **default image** and adjusting `z-index`
+- Sometimes forgot a `)` or `}` — simple bugs that cost a lot of time, but taught me to slow down and double-check. 
+
+---
+
+### 🔐 API & Environment Variables
+
+Getting the Unsplash API working taught me how to:
+- Read and understand API documentation
+- Secure keys using `.env` and **Vite environment variables**
+- Use `fetch` inside `useEffect` and wrangle API data properly
+
+---
+
 
 # Resources
 [Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
@@ -108,6 +161,9 @@ This project helped me strengthen and apply the following concepts and tools:
 [Stop Propagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
 [React Icons](https://react-icons.github.io/react-icons/icons/hi/)
 [Focus image](https://react.dev/learn/synchronizing-with-effects#focus-a-field-on-mount)
+[Responding to Events](https://react.dev/learn/responding-to-events)
+
+
 
 
 
