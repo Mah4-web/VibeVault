@@ -1,0 +1,31 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* So I went crazy with z-index because my overlay was not setting, 
+    I just wanted to try then once everything start making sense and looked good
+    I changed it to auto then I changed my z-index for searcbar and thumbnails accordingly  */
+    z-index: auto;
+    outline: none;
+}
+
+.modal-content {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.modal-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* makes it fill screen */
+    user-select: none;
+    pointer-events: none;
+}

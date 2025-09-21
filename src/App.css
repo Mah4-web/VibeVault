@@ -10,6 +10,7 @@
     --nav-button: var(--color-amber-200) ;
     --nav-shadow: var(--color-orange-100);
     --gallery-container: var(--color-amber-100);
+    --nav-hover: var(--color-amber-400);
 }
 
 body, html, #root {

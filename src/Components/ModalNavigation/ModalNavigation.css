@@ -16,8 +16,8 @@
 }
 
 .nav-btn:hover {
-    background: var(--accent-color);
-    box-shadow: 0 0 18px var(--accent-color);
+    background: var(--nav-hover);
+    box-shadow: 0 0 18px var(--nav-hover);
 }
 
 .nav-btn.left {

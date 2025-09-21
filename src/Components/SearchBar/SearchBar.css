@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 400px;
     margin: 0 auto; 
+    z-index: 1;
 } 
 
 .input-wrapper {
@@ -18,7 +19,6 @@
     pointer-events: none; /* so it doesn't block clicks in input */
     font-size: 1rem; 
 }
-
 input[type="text"] {
     width: 100%;
     padding: 8px 12px 8px 36px; /* left padding makes room for icon */
@@ -27,6 +27,8 @@ input[type="text"] {
     border-radius: 6px;
     outline: none;
     transition: border-color 0.2s ease;
+    background-color: #fff8e1;
+    color: #333;
 }
 
 input[type="text"]:focus {

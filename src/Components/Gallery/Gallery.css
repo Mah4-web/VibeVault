@@ -9,7 +9,7 @@
     border-radius: 2px;
     overflow-x: auto;    /* horizontal scroll */
     overflow-y: hidden;  /* hide vertical scrollbar */
-    z-index: 100;
+    z-index: 1;
     bottom: 3vh;
     left: 50%;
     position: absolute;
