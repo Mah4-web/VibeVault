@@ -78,6 +78,18 @@ This project helped me strengthen and apply the following concepts and tools:
 
 ---
 
+## 🎯 Requirements Met
+
+- ✅ Used `useState` and `useEffect` for API data and interactions
+- ✅ Component-based architecture (clean)
+- ✅ Dynamic rendering using `.map()`
+- ✅ Accessible alt text and keyboard controls
+- ✅ Fully mobile responsive using Tailwind
+- ✅ Modal with image preview and navigation
+- ✅ API key secured using `.env` variables
+
+---
+
 # Resources
 [Keydown](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event)
 [tabIndex](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex)
@@ -86,6 +98,12 @@ This project helped me strengthen and apply the following concepts and tools:
 [Stop Propagation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
 [React Icons](https://react-icons.github.io/react-icons/icons/hi/)
 [Focus image](https://react.dev/learn/synchronizing-with-effects#focus-a-field-on-mount)
+
+
+
+
+
+
 
 
 
