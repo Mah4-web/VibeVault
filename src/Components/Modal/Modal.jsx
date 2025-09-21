@@ -3,8 +3,7 @@
 // I used useRef to create a reference to a DOM element
 
 import { useEffect, useRef } from "react";
-import { HiChevronLeft } from "react-icons/hi";
-import { HiChevronRight } from "react-icons/hi";
+import ModalNavigation from "../ModalNavigation/ModalNavigation";
 
 
 export default function Modal({ image, onClose, onNext, onPrev }) {
@@ -39,19 +38,12 @@ export default function Modal({ image, onClose, onNext, onPrev }) {
         ref={modalRef}
     >
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="nav-btn left" onClick={onPrev}>
-            <HiChevronLeft />
-        </button>
 
         <img
             src={urls.regular}
             alt={alt_description || "Unsplash image"}
             className="modal-image"
         />
-
-        <button className="nav-btn right" onClick={onNext}>
-        <HiChevronRight />
-        </button>
         </div>
     </div>
     );

@@ -9,7 +9,7 @@
     --main-font: "Georgia", serif ;
 }
 
-.app {
+/* .app {
   font-family: var(--main-font);
   padding: 1rem;
   position: relative;
@@ -17,4 +17,20 @@
   background-color: var(--bg-colour);
   color: var(--color-teal-950);
   text-align: center ;
+} */
+body, html, #root {
+  height: 100%;
+  background-color: var(--bg-colour);
+  color: var(--text-color);
+  font-family: var(--main-font);
+  overflow: hidden; /* prevent page scroll */
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1rem 1.5rem 0 1.5rem;
+  text-align: center;
 }

@@ -2,7 +2,8 @@ import "./App.css";
 import Gallery from "./Components/Gallery/Gallery.jsx";
 import Thumbnail from "./Components/Thumbnail/Thumbnail.jsx";
 import SearchBar from "./Components/SearchBar/SearchBar.jsx";
-import Modal from "./Components/Modal/Modal.jsx"
+import Modal from "./Components/Modal/Modal.jsx";
+import ModalNavigation from "./Components/ModalNavigation/ModalNavigation.jsx";
 
 // I'm using useState and useEffect because I'm fetching data from an API here.
 
