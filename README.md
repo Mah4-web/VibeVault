@@ -170,7 +170,7 @@ I’ve realized it’s not just about getting things perfect — it’s about ma
 
 ---
 
-### My Modal Journey
+### 🖼️ My Modal Journey
 
 It wasn’t easy, but I kept pushing. I initially wanted to name it "Panorama" for the full-screen effect, but ended up sticking with "Modal." At first, it only showed the image without covering the whole page, then it was showing just the layout and images and then it covered everything, including the search bar and thumbnails. After many trials, reading React docs, and hours of Googling, I finally made it work. This was a true test of patience.
 
