@@ -170,6 +170,12 @@ I’ve realized it’s not just about getting things perfect — it’s about ma
 
 ---
 
+### My Modal Journey
+
+It wasn’t easy, but I kept pushing. I initially wanted to name it "Panorama" for the full-screen effect, but ended up sticking with "Modal." At first, it only showed the image without covering the whole page, then it was showing just the layout and images and then it covered everything, including the search bar and thumbnails. After many trials, reading React docs, and hours of Googling, I finally made it work. This was a true test of patience.
+
+---
+
 ## 🧘 Lessons Learned
 
 > _"Starting simple helped me focus, but as the complexity grew, I had to dig into docs, revisit notes, test repeatedly, and learn by doing. I’m proud that I built something fully functional, accessible, and good-looking from scratch."_ 💪
@@ -227,7 +233,7 @@ I'm proud of how much I’ve grown, and even more excited about what comes next.
 - [Example Stretch](https://great-images-iq88jjcm5-slouloudis.vercel.app/)
 
 - **Teacher's Notes on Github**
-**I used AI to rephrase my reflection not all of it and I made few changes and added few items in the result and if someone is interested it is in the prompts**
+- **I used AI to rephrase my reflection not all of it and I made few changes and added few items in the result and if someone is interested it is in the prompts**
 
 
 
