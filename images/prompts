@@ -45,3 +45,5 @@ i followed the class notes for the structure, I added buttons for navigation and
  when the navigation didn't work, then my modal was on the page after styling and searchbar and thumbnail disappear, then i played with z-index, i went crazy first started with z-index 500 for the image modal because it wasn't setting well then when it was working then my searchbar and thumnails disappear but eventually with few styling chnages and z-index changing everything started working, i got few errors somewhere i was forgetting syntax and sometimes () or } but after so many trail and errors i achieved what i wanted to achieve.
 
 Final thoughts: I am happy and proud, I solved problems, debug complex things, used documentation, videos and built something meaningful.==== I need a professional reflection, remove unnecessary things, and make it professional, I have mentioned headings and content== make it professional
+
+Notes: I added all the emoji's and made few changes in the AI paraphrase version as well. I tested Modal images. 

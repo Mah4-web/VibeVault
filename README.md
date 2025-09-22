@@ -31,6 +31,8 @@ This project helped me strengthen and apply the following concepts and tools:
 - Lists and keys
 - Debugging with React Dev Tools
 - Environment variables with Vite
+- tabIndex
+- Keeping track of values and DOM elements without re-rendering `useRef`
 
 ### 🎨 Styling & UI
 - Responsive design with Tailwind CSS
@@ -75,6 +77,14 @@ This project helped me strengthen and apply the following concepts and tools:
 ![Alt text](./images/redLines.png)
 **More Planning**
 ![Alt text](./images/planning.png)
+
+---
+
+### First Look of My searchbar
+
+When I started searchbar I wanted a button then I decided to make it simple and not add it. But once I finished it I felt I should've added a button because I tried it on my mobile and now this is what I am going to do in the future. I will add a button.
+
+![Alt text](./images/searchbar.png)
 
 ---
 
@@ -152,6 +162,14 @@ Getting the Unsplash API working taught me how to:
 
 ---
 
+### 🔍 SearchBar 
+
+At first, things seemed complicated, like when I started with ul and li for a search bar. But after watching few videos I learned new things. Even when I didn’t fully understand everything, experimenting and pushing through the challenges kept me going. For every new term I studied react documents, I knew few things earlier but I thought terms will be differnt in React so studied everything for example **e.preventDefault(),** **(e.target.value)**, **tabIndex** learning about them and React Icons opened new possibilities.
+
+I’ve realized it’s not just about getting things perfect — it’s about making progress, learning from mistakes, and growing with every step. Each line of code, each new feature I build, reminds me that the journey is as rewarding as the destination. The more I try, the more passionate I become.
+
+---
+
 ## 🧘 Lessons Learned
 
 > _"Starting simple helped me focus, but as the complexity grew, I had to dig into docs, revisit notes, test repeatedly, and learn by doing. I’m proud that I built something fully functional, accessible, and good-looking from scratch."_ 💪
@@ -170,7 +188,7 @@ Live Demo: [VibeVault](https://vibevault-fse1.onrender.com/)
 
 - Inspiration: Week 2 and 6 React workshops + Accessibility labs
 
-- My Mentor: Manuel Gonzalez
+- My Mentor: [Manuel Gonzalez](https://github.com/MannyGGB?tab=repositories)
 
 ---
 
@@ -208,8 +226,8 @@ I'm proud of how much I’ve grown, and even more excited about what comes next.
 - [Updating Objects in state](https://react.dev/learn/updating-objects-in-state)
 - [Example Stretch](https://great-images-iq88jjcm5-slouloudis.vercel.app/)
 
-**Teacher's Notes on Github**
-**I used AI to rephrase my reflection and if someone is interested it is in prompts**
+- **Teacher's Notes on Github**
+**I used AI to rephrase my reflection not all of it and I made few changes and added few items in the result and if someone is interested it is in the prompts**
 
 
 
